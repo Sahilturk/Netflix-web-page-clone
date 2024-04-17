@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: black;
+}
+
+div button.sign{
+    background-color:#d31313;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-weight: bolder;
+}
+.main{
+    background-image: url("/bg.jpg");
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+}
+.main .box{
+    position: absolute;
+    top: 0;
+    height: 80vh;
+    width: 100%;
+    opacity: 0.5;
+    background-color: black;
+}
+nav{
+    /* background-color: blue; */
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+    height: 60px;
+    padding: 10px;
+}
+nav img{
+    width: 112px;
+}
+div.hero{
+    height: calc(100% - 80px);
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+div.hero span{
+    padding: 0 20px;
+    text-align: center;
+    font-size: x-large;
+}
+input{
+    padding:20px 30px;
+    /* background: local; */
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: larger;
+    opacity: 0.4;
+    font-weight: bolder;
+    background-color: rgb(14, 9, 9);
+    
+}
+
+.email{
+    font-weight: bolder;
+    background-color: rgb(193, 17, 25);
+    color: white;
+    padding:20px 30px;
+    font-size: larger;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+div.last{
+    position: relative;
+    text-align: center;
+    padding: 5px 20px;
+   
+}
+.line{
+    height: 5px;
+    background-color: rgb(27, 25, 25);
+}
+/* .line2{
+    height: 5px;
+    background-color: rgb(27, 25, 25);
+    position: absolute;
+    bottom: 0;
+} */
+.first{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    max-width: 70vw;
+    margin: auto;
+}
+@media screen and (max-width: 1300px) {
+.first
+{
+    flex-wrap: wrap;
+
+}
+}
+.secimg{
+    width: 555px;
+    position: relative;
+}
+.secimg img{
+    position: relative;
+    z-index: 10;
+    width: 555px;
+}
+.secimg video{
+    position: absolute;
+    top: 49px;
+    right: 26px;
+    width: 500px;
+
+}
+.cont h3{
+    font-size:45px;
+}
+.cont p{
+    margin-top: 15px;
+    font-size:25px;
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.faq h2{
+    color: white;
+    font-size: 50PX;
+     text-align: center;
+    padding: 10px;
+}
+.faqbox:hover{
+    background-color:#635f5f;
+}
+.faqbox{
+    transition: all 1s cubic-bezier(1, 0.65, 0.07, 0.54);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#1e1a1a;
+    padding: 20px;
+    width: 70vw;
+    margin: auto;
+    color: white;
+    font-size: 30PX;
+}
+.end{
+    display: flex;
+    justify-content: center;
+}
+.end h1{
+    color: white;
+    margin-top: 20px;
+   
+   
+}
+.end2{
+    margin-bottom: 90px;
+}
+
+
+.input2{
+    padding:13px 20px;
+    /* background: local; */
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 7px;
+    font-size: medium;
+    opacity: 0.4;
+    font-weight: bold;
+    background-color: rgb(14, 9, 9);
+    
+}
+
+.email2{
+    font-weight: bold;
+    background-color: rgb(193, 17, 25);
+    color: white;
+    padding:13px 20px;
+    font-size: medium;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80vw;
+    margin: auto;
+    padding: 50px;
+}
+@media screen and (max-width: 1300px) {
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 80vw;
+        margin: auto;
+        padding: 50px;
+    }
+}
+.footitem{
+    display: flex;
+    /* color: white; */
+    flex-direction: column;
+    gap: 10px;
+}
+.footitem a{
+    text-decoration: none;
+    color: white;
+}
